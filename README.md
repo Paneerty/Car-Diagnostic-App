@@ -1,4 +1,3 @@
-# Car-Diagnostic-App
 DG.CAR
 # Car Diagnostic App - تطبيق فحص السيارات
 
@@ -12,4 +11,18 @@ DG.CAR
 
 ## البناء
 ```bash
+buildozer android debug
+## 📄 الرخصة
+
+هذا المشروع مرخص تحت رخصة MIT - انظر ملف [LICENSE](LICENSE) للتفاصيل.
+
+## 🛠️ البناء
+
+لبناء التطبيق لنظام Android:
+
+```bash
+# تثبيت Buildozer
+pip install buildozer
+
+# البناء (يأخذ وقتاً طويلاً في المرة الأولى)
 buildozer android debug
